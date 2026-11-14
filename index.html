@@ -139,16 +139,9 @@ body.editing [data-edit] { outline: 2px dashed rgba(255,194,58,.8); outline-offs
 #s-open .endcard { position: absolute; inset: 0; z-index: 5; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 40px; opacity: 0; background: rgba(6,47,72,.55); }
 #s-open .endcard img { width: 1000px; }
 #s-open .endcard p { font-family: var(--px); font-size: 46px; color: var(--cream); text-shadow: 4px 4px 0 rgba(0,0,0,.5); }
-#s-open .gate { position: absolute; inset: 0; z-index: 30; background: #0b1622 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAADwCAIAAACxN37FAAAEIUlEQVR4nO3dzWtjdRSA4ZtMSpGOwzCUMhUECS4UFLpQ1/3Tu59NcePGtR1EBvEDGUqju+4EU5P55b55nlUGSnM5vHMWh9Aszi7WE1QsRz8A7JKgSRE0KYImRdCkCJoUQZMiaFIETYqgSRE0KYImRdCkCJoUQZMiaFIETYqgSRE0KYImRdCkCJoUQZMiaFIETYqgSRE0KYImRdCkCJoUQZOymqJOXpwPed/7337Zye+5vLp+fH13ezMdqpMDm7MNTYqgSRE0KYImRdCkCJoUQZOyePn5d0PurPu+d242m2mE5XI3O8KcnzZnG5oUQZMiaFIETYqgSRE0KYImZbXtvXbU51/P1189vv75x++nQ7Wr+/eoOW8G3e939Zw2NCmCJkXQpAiaFEGTImhSBE3K4sX6m6no4Y93Q9732fNX0zF5OLA529CkCJoUQZMiaFIETYqgSRE0KYuzi/Us7qyj7p2jmPPT2NCkCJoUQZMiaFIETYqgSRE0x/09hcd2Dx7FnJ/GhiZF0KQImhRBkyJoUgRNiqBJETQpgiZF0KQImhRBkyJoUgRNiqBJETQpgiZF0KQImhRBkyJoUgRNiqBJETQpgiZF0KQImhRBkyJoUgRNiqBJETQpgiZF0KQImhRBkyJoUgRNiqA57u8pfPbRx9M+Pfz1+15//1yY89PY0KQImhRBkyJoUgRNiqBJETQpq23vnZvNZprD/XXf9+x934m3nfPrL799fP32hzcHO+fLq+vH13e3Nzt/ThuaFEGTImhSBE2KoEkRNCmCJmXx/NOvp6Llcr//V/d9j5+L5YHN2YYmRdCkCJoUQZMiaFIETYqgSdn673L8/f7PaZ8Wp2c7+Rzw3O/Ehzbnf3Noc7ahSRE0KYImRdCkCJoUQZMiaFIWZxfraQ62/XsOu7qzjroTj5rbtg5tzjY0KYImRdCkCJoUQZMiaFIEzXHfofd914T/w4YmRdCkCJoUQZMiaFIETYqgSZnN56Hhv7ChSRE0KYImRdCkCJoUQZMiaFIETYqgSRE0KYImRdCkCJoUQZMiaFIETYqgSRE0KYImRdCkCJoUQZMiaFIETYqgSRE0KYImRdCkCJoUQZMiaFJW08ydvvpkyPu+f/fTdExOZzJnG5oUQZMiaFIETYqgSRE0KYImZdj3FO7qrrnZbKYRlsvlLO7Wp0c2ZxuaFEGTImhSBE2KoEkRNCmCJmU16nOuo+6ao57fnD/MnG1oUgRNiqBJETQpgiZF0KQImpTV3O/B97++HfK+Jy9fb/Xz5vxh5mxDkyJoUgRNiqBJETQpgiZF0KSsju1+POr5t72n7sr9kc3ZhiZF0KQImhRBkyJoUgRNiqBJWZ1/9sXjP+5ub6ZjdXl1vdc5zP0ePBc2NCmCJkXQpAiaFEGTImhSBM1U8g88zLJZ4jUPJQAAAABJRU5ErkJggg==) repeat; background-size: 240px; cursor: pointer; overflow: hidden; }
-#s-open .gate .glow { position: absolute; left: 50%; top: 42%; width: 1300px; height: 700px; transform: translate(-50%,-50%); background: radial-gradient(ellipse at center, rgba(89,183,238,.22), rgba(11,22,34,0) 65%); }
-#s-open .gate img { position: absolute; left: 50%; top: 190px; width: 980px; margin-left: -490px; image-rendering: pixelated; animation: gateFloat 3s ease-in-out infinite; filter: drop-shadow(0 18px 0 rgba(0,0,0,.35)); }
-#s-open .gate .tag { position: absolute; left: 0; right: 0; top: 640px; text-align: center; font-size: 38px; font-weight: 700; color: #eaf6ff; letter-spacing: 1px; }
-#s-open .gate b { position: absolute; left: 50%; top: 745px; transform: translateX(-50%); font-family: var(--px); font-size: 40px; letter-spacing: 4px; color: #fff; background: #0b3a5c; padding: 20px 40px; box-shadow: 0 7px 0 0 #031b2a, 0 0 0 5px #59b7ee; animation: gateBlink 1.1s steps(1) infinite; white-space: nowrap; }
-#s-open .gate .team { position: absolute; left: 70px; top: 70px; font-family: var(--px); font-size: 20px; color: #59b7ee; letter-spacing: 2px; }
-#s-open .gate .keys { position: absolute; right: 70px; top: 70px; font-family: var(--px); font-size: 16px; color: rgba(255,255,255,.55); letter-spacing: 1px; text-align: right; line-height: 1.7; }
-#s-open .gate .pxwave { top: 984px; }
-@keyframes gateFloat { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-18px); } }
-@keyframes gateBlink { 50% { opacity: .35; } }
+#s-open .start-cta { position: absolute; left: 959px; top: 990px; z-index: 6; transform: translateX(-50%); font-family: var(--px); font-size: 34px; letter-spacing: 5px; color: #fff; white-space: nowrap; cursor: pointer; text-shadow: 3px 3px 0 #b3203a, -1px -1px 0 #b3203a, 1px -1px 0 #b3203a, -1px 1px 0 #b3203a; opacity: 0; }
+#s-open .start-cta.on { animation: ctaBlink 1.1s steps(1) infinite; }
+@keyframes ctaBlink { 50% { opacity: .45; } }
 #s-open .hint { position: absolute; right: 60px; top: 140px; font-family: var(--px); font-size: 18px; color: rgba(255,255,255,.55); z-index: 4; }
 
 /* ===========================================
@@ -797,8 +790,7 @@ S['s-open'] = {
     // 1) adegan masuk, 2) kamera zoom ke layar monitor, 3) reel penuh layar
     const Cx = 659 + 63 + 244, Cy = 453 + 38 + 144;
     const tl = gsap.timeline({ paused: true });
-    tl.call(() => SFX.play('bgm', 2), null, 0)
-      .call(() => SFX.play('thud'), null, .72)
+    tl.call(() => SFX.play('thud'), null, .72)
       .call(() => SFX.play('chime'), null, 1.2)
       .call(() => SFX.play('whoosh'), null, 3.2);
     tl.from($('.cin-desk', el), { y: 320, duration: .7, ease: 'power3.out' }, 0)
@@ -818,28 +810,27 @@ S['s-open'] = {
       $$('.cin-star', el).forEach((st, k) => gsap.to(st, { scale: .7, duration: .5 + k * .15, ease: 'steps(2)', yoyo: true, repeat: -1, delay: 1.4 }));
       $$('.cin-cloud', el).forEach((c, k) => gsap.to(c, { x: k ? 90 : -90, duration: 6 + k * 2, ease: 'sine.inOut', yoyo: true, repeat: -1 }));
     }
-    // LAYAR IDLE "PRESS START": selalu tampil dulu saat slide opening dibuka, cinematic baru jalan setelah ditekan.
-    // Interaksi ini juga membuka izin suara di browser.
-    tl.progress(0).pause();
-    const logoSrc = $('img', end).src;
-    const gate = document.createElement('div'); gate.className = 'gate';
-    gate.innerHTML = '<div class="glow"></div><img alt="WATERWAYS" src="' + logoSrc + '"><div class="tag">Guide the water. Save the city.</div>'
-      + '<b>&#9654; PRESS START</b><div class="team">TIM AYAM RENANG &middot; MAGE 12</div>'
-      + '<div class="keys">KLIK / SPASI = MULAI<br>F = LAYAR PENUH &middot; S = SUARA</div><div class="pxwave"></div>';
-    el.appendChild(gate);
-    const wave = $('.pxwave', gate); const waveTw = isLite() ? null : gsap.to(wave, { x: -1200, duration: 14, ease: 'none', repeat: -1 });
-    const PASS = ['f', 'F', 's', 'S', 'n', 'N', 'h', 'H', '?', 'm', 'M', 'e', 'E', 'Shift', 'Control', 'Alt', 'Meta', 'Escape', 'Home', 'End', 'Tab'];
+    // CTA "PRESS START" tepat di bawah monitor: intro (meja, monitor, judul) jalan lalu berhenti,
+    // zoom ke layar + reel baru jalan setelah ditekan. Interaksi ini juga membuka izin suara di browser.
+    const cta = document.createElement('div'); cta.className = 'start-cta'; cta.innerHTML = '&#9654; PRESS START';
+    el.appendChild(cta);
+    const HOLD = 2.3;            // titik berhenti: judul & subjudul sudah tampil
+    tl.addPause(HOLD, () => { gsap.to(cta, { opacity: 1, duration: .35, onComplete: () => cta.classList.add('on') }); });
+    let started = false;
+    const PASS = ['f', 'F', 's', 'S', 'n', 'N', 'h', 'H', '?', 'm', 'M', 'e', 'E', 'Shift', 'Control', 'Alt', 'Meta', 'Escape', 'Home', 'End', 'Tab', 'ArrowLeft', 'PageUp', 'Backspace'];
     const onStart = (e) => {
+      if (started) return;
       if (e.type === 'keydown' && PASS.includes(e.key)) return;
-      if (e.type === 'keydown' && e.key === 'ArrowLeft') return;
       e.preventDefault(); e.stopImmediatePropagation();
-      cleanupGate();
-      gsap.to(gate, { opacity: 0, duration: .45, ease: 'power2.in', onComplete: () => { if (waveTw) waveTw.kill(); gate.remove(); } });
-      if (REDUCED) tl.progress(1); else tl.play(0);
+      started = true; cleanupGate();
+      cta.classList.remove('on'); gsap.to(cta, { opacity: 0, y: 12, duration: .25 });
+      SFX.play('bgm', 2);
+      if (REDUCED) tl.progress(1); else tl.play(Math.max(tl.time(), 3.0));
     };
     const cleanupGate = () => { ['click', 'keydown', 'touchend'].forEach(t => window.removeEventListener(t, onStart, true)); };
     ['click', 'keydown', 'touchend'].forEach(t => window.addEventListener(t, onStart, true));
-    return () => { reelTl.kill(); tl.kill(); [scr, ...vids].forEach(v => v.pause()); SFX.stopAll(.4); cleanupGate(); if (waveTw) waveTw.kill(); gate.remove(); };
+    if (REDUCED) { tl.progress(HOLD / tl.duration()); gsap.set(cta, { opacity: 1 }); } else tl.play(0);
+    return () => { reelTl.kill(); tl.kill(); [scr, ...vids].forEach(v => v.pause()); SFX.stopAll(.4); cleanupGate(); cta.remove(); };
   }
 };
 

@@ -40,7 +40,7 @@ Deck pitching WATERWAYS (tim Ayam Renang, MAGE 12), 16 slide beranimasi dengan v
 - **S**: suara on/off (backsound & SFX opening)
 - **H** atau **?**: bantuan tombol
 
-Saat dibuka, deck menampilkan **layar idle PRESS START** (logo WATERWAYS dan ombak) dan diam di situ sampai presentasi dimulai. Tekan **Spasi / Enter / → / klik** untuk memulai opening sinematik dengan backsound. Tombol F, S, N, dan H bisa dipakai di layar idle tanpa memulai opening.
+Saat dibuka, slide opening memainkan intro (meja, monitor, "Ayam Renang Presents") lalu **berhenti dengan tombol PRESS START di bawah monitor** sampai presentasi dimulai. Tekan **Spasi / Enter / → / klik** untuk lanjut ke zoom monitor dan reel sinematik dengan backsound. Tombol F, S, N, dan H bisa dipakai saat menunggu tanpa memulai.
 
 ## Coba lokal sebelum deploy
 
