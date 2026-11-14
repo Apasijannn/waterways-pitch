@@ -8,8 +8,9 @@ Deck pitching WATERWAYS (tim Ayam Renang, MAGE 12), 16 slide beranimasi dengan v
 |---|---|
 | `index.html` | Deck lengkap (font, gambar, dan catatan pembicara sudah tertanam) |
 | `v/*.mp4` | 7 video gameplay yang diputar di slide |
+| `audio/*.mp3` | Backsound & SFX opening, diambil dari aset audio game |
 | `vendor/gsap.min.js` | Library animasi GSAP 3.12.5, disimpan lokal supaya tidak bergantung CDN |
-| `favicon.png` | Ikon tab browser |
+| `favicon.png`, `favicon-64.png`, `apple-touch-icon.png` | Ikon tab browser & bookmark HP (logo WATERWAYS) |
 | `.nojekyll` | Supaya GitHub Pages menyajikan file apa adanya |
 
 ## Deploy ke GitHub Pages
@@ -36,7 +37,10 @@ Deck pitching WATERWAYS (tim Ayam Renang, MAGE 12), 16 slide beranimasi dengan v
 - **F**: layar penuh
 - **N**: tampilkan catatan pembicara (dengan timer)
 - **M**: mode ringan (animasi dikurangi, untuk laptop lambat)
+- **S**: suara on/off (backsound & SFX opening)
 - **H** atau **?**: bantuan tombol
+
+Saat dibuka, deck menampilkan **layar idle PRESS START** (logo WATERWAYS dan ombak) dan diam di situ sampai presentasi dimulai. Tekan **Spasi / Enter / → / klik** untuk memulai opening sinematik dengan backsound. Tombol F, S, N, dan H bisa dipakai di layar idle tanpa memulai opening.
 
 ## Coba lokal sebelum deploy
 
